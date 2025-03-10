@@ -1,0 +1,104 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Quicksand';
+}
+
+button {
+    display: none;
+    background: pink;
+    height: 100%;
+    width: 100%;
+}
+
+footer {
+    font-size: 12px;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    margin: 0;
+}
+
+
+.hexagon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px; /* adjust to control the size  */
+    aspect-ratio: 1/cos(30deg);
+    clip-path: polygon(50% -50%,100% 50%,50% 150%,0 50%);
+    transition: 0.5s;
+}
+
+#aboutHexagon {
+    background: #c41111;
+}
+
+#aboutHexagon:hover {
+    background: #ff008c;
+}
+
+:focus
+
+
+#projectsHexagon {
+    background: #1150c4;
+}
+
+#projectsHexagon:hover {
+    background: #00ebb8;
+}
+
+#contactHexagon {
+    background: #dfe219;
+}
+
+#contactHexagon:hover {
+    background: #09e72e;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 5px;
+}
+
+#garagePage {
+    display: flex;
+    background-color: white;
+    flex-direction: column;
+    height: 100%
+}
+
+#mainContent {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+
+nav {
+    display: none;
+}
+
+#projectsShelf {
+    display: flex;
+    border-left: 1px;
+    border-right: 1px;
+    border-top: 0px;
+    border-bottom: 0px;
+    border-style: solid;
+    border-color: black;
+}
+
+.shelf {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
