@@ -39,9 +39,6 @@ h1 {
     background: #ff008c;
 }
 
-:focus
-
-
 #projectsHexagon {
     background: #1150c4;
 }
@@ -85,7 +82,6 @@ nav {
 }
 
 #projectsShelf {
-    display: flex;
     border-left: 1px;
     border-right: 1px;
     border-top: 0px;
