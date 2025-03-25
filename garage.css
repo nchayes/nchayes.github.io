@@ -3,6 +3,15 @@
     font-family: 'Quicksand';
 }
 
+a, a:visited {
+    color: black;
+    text-decoration-line: none;
+}
+
+a:hover, a:active {
+    text-decoration-line: underline;
+}
+
 button {
     display: none;
     background: pink;
@@ -53,6 +62,10 @@ h1 {
 
 #contactHexagon:hover {
     background: #09e72e;
+}
+
+.imageLink {
+    width: 10%;
 }
 
 html, body {
