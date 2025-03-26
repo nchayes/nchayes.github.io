@@ -12,6 +12,12 @@ a:hover, a:active {
     text-decoration-line: underline;
 }
 
+img,
+picture,
+video {
+  max-width: 100%;
+}
+
 button {
     display: none;
     background: pink;
@@ -24,9 +30,16 @@ footer {
     text-align: center;
 }
 
+header {
+    display: flex;
+    flex-direction: column;
+}
+
 h1 {
     text-align: center;
     margin: 0;
+    width: fit-content;
+    align-self: center;
 }
 
 
@@ -62,10 +75,6 @@ h1 {
 
 #contactHexagon:hover {
     background: #09e72e;
-}
-
-.imageLink {
-    width: 10%;
 }
 
 html, body {
