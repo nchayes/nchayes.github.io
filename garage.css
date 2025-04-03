@@ -42,7 +42,6 @@ h1 {
     align-self: center;
 }
 
-
 .hexagon {
     display: flex;
     justify-content: center;
@@ -115,6 +114,7 @@ nav {
 .shelf {
     display: flex;
     flex: 1;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 100%;
